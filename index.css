@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+
+table,
+td,
+tr,
+thead {
+    text-align: center;
+    border: 2px solid black;
+    vertical-align: middle;
+    overflow-x: auto;
+}
+
+thead,
+label {
+    font-weight: bold;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+body {
+    background-color: rgb(153, 149, 149);
+}
+
+input:hover {
+    background-color: grey;
+    color: white;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button {
+    margin-left: 41%;
+}
+
+img {
+    height: 500px;
+
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 2%;
+    overflow: auto
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    button {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+
+}
